@@ -1,7 +1,7 @@
 async function fetchImages() {
     const gallery = document.getElementById('image-gallery');
     const pagination = document.getElementById('pagination');
-    const jsonUrl = 'https://the1-1209.github.io/the1.github.io/new%20floder/images.json';
+    const jsonUrl = 'https://the1-1209.github.io/imageskeeper/new%20floder/images.json';
     const imagesPerPage = 6; // 每页显示的图片数量
 
     try {
